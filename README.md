@@ -21,7 +21,7 @@ A collection of Jupyter notebooks covering foundational machine learning exercis
 Ensure you have **Python 3** installed, then install the required dependencies:
 
 ```bash
-python -m pip install numpy pandas matplotlib scikit-learn jupyter
+`python -m pip install numpy pandas matplotlib scikit-learn jupyter
 
 ## Dataset Setup
 External datasets are not tracked in this repository. Download the required dataset files here and place them in the root directory alongside the notebooks before running them:
