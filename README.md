@@ -81,26 +81,22 @@ The following notebooks generate their own sample datasets and do not require ex
 3. Open the notebook you want to execute.
 4. Run the cells sequentially to explore the implementation, predictions, evaluation metrics, and visualizations.
 
-📚 Concepts Covered
+## 📚 Concepts Covered
 
-Linear Regression
+- Linear Regression
+- Polynomial Regression (2nd and 3rd Degree)
+- Ordinary Least Squares (OLS)
+- Ridge and Lasso Regularization
+- Logistic Regression
+- Decision Tree Classification
+- K-Fold Cross-Validation
+- Model Evaluation and Performance Metrics
+- Data Visualization
 
-Polynomial Regression (2nd and 3rd Degree)
-
-Ordinary Least Squares (OLS)
-
-Ridge and Lasso Regularization
-
-Logistic Regression
-
-Decision Tree Classification
-
-K-Fold Cross-Validation
-
-Model Evaluation and Performance Metrics
-
-Data Visualization
-
-🎯 Purpose
+## 🎯 Purpose
 
 The purpose of this repository is to gain practical experience with fundamental Machine Learning algorithms, understand their working principles, and explore their implementation using Python.
+
+---
+
+⭐ *Learning, experimenting, and building a foundation in Machine Learning!* 
