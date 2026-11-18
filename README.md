@@ -1,51 +1,87 @@
-# ml-lab-4NI24CI114
+# 🤖 Machine Learning Lab
 
-# Machine Learning Lab
+Welcome to my **Machine Learning Lab Repository!**
 
-A collection of Jupyter notebooks covering foundational machine learning exercises, including linear and polynomial regression, regularization, $k$-fold cross-validation, and binary classification.
+This repository contains Jupyter Notebooks covering fundamental Machine Learning concepts and their practical implementations using Python. It includes regression techniques, regularization methods, cross-validation, and classification algorithms.
 
-## Repository Contents
+## 📂 Repository Contents
 
-| Notebook | Description | Required Dataset |
-| :--- | :--- | :--- |
-| `linear-regression.ipynb` | Fits a simple linear regression model to study hours vs. marks, plots the regression line, and predicts marks for 10 study hours. | `linear_regression.csv` |
-| `2 degree polynomial.ipynb` | Fits a quadratic polynomial from scratch by constructing the design matrix and solving the normal equations, then evaluates and plots the fit. | `Degree 2 Polynomial.csv` |
-| `3 degree polynomial.ipynb` | Generates a small in-memory dataset, fits a cubic polynomial using `scikit-learn`, evaluates metrics, and plots the curve. | *None (built-in)* |
-| `kfold.ipynb` | Demonstrates 5-fold cross-validation for linear regression and reports fold-level predictions and error metrics. | `k_fold_linear_regression (2).csv` |
-| `regularization.ipynb` | Compares Ordinary Least Squares (OLS), Ridge, and a manual Lasso-style solution on synthetic data across train/val/test splits. | *None (built-in)* |
-| `activity 1.ipynb` | Compares OLS, Ridge, and a manual Lasso-style solution on a small synthetic dataset, reporting split-level predictions and MSE. | *None (built-in)* |
-| `activity 2.ipynb` | Trains a scaled logistic regression classifier on banknote data; evaluates metrics, decision thresholds, cross-validation, and a decision tree baseline. | `data_banknote_authentication.txt` |
+| Notebook | Description |
+|---|---|
+| `activity 1.ipynb` | Implements and compares Ordinary Least Squares (OLS), Ridge Regression, and a manually calculated Lasso-style solution using a synthetic dataset. |
+| `activity 2.ipynb` | Explores the UCI Banknote Authentication dataset using Logistic Regression and Decision Tree classification. Covers scaling, classification metrics, thresholds, and cross-validation. |
+| `2 degree polynomial.ipynb` | Implements quadratic polynomial regression using a design matrix and normal equations. Includes predictions and visualization. |
+| `3 degree polynomial.ipynb` | Demonstrates cubic polynomial regression using Scikit-learn with model evaluation and visualization. |
+| `kfold.ipynb` | Demonstrates 5-Fold Cross-Validation for Linear Regression and evaluates performance across different folds. |
+| `linear-regression.ipynb` | Implements Simple Linear Regression using study hours and marks, with visualization and prediction. |
+| `regularization.ipynb` | Compares OLS, Ridge Regression, and a manually calculated Lasso-style solution using a synthetic dataset. |
 
-## Prerequisites & Installation
+## 🛠️ Technologies Used
 
-Ensure you have **Python 3** installed, then install the required dependencies:
+- 🐍 Python 3
+- 📓 Jupyter Notebook
+- 🔢 NumPy
+- 🐼 Pandas
+- 📊 Matplotlib
+- ⚙️ Scikit-learn
+
+## ⚙️ Installation & Setup
+
+**1. Clone the repository**
 
 ```bash
-`python -m pip install numpy pandas matplotlib scikit-learn jupyter
+git clone <repository-url>
+```
 
-## Dataset Setup
-External datasets are not tracked in this repository. Download the required dataset files here and place them in the root directory alongside the notebooks before running them:
+**2. Navigate to the project directory**
 
-linear_regression.csv — Expects Hours_Studied and Marks columns.
+```bash
+cd <repository-folder>
+```
 
-Degree 2 Polynomial.csv — Expects X and Y columns.
+**3. Install the required libraries**
 
-k_fold_linear_regression (2).csv — Expects Hours_Studied and Marks columns.
+```bash
+python -m pip install numpy pandas matplotlib scikit-learn jupyter
+```
 
-data_banknote_authentication.txt — Headerless UCI Banknote Authentication file (4 feature columns + 1 class label column; headers are assigned in the notebook).
+**4. Launch Jupyter Notebook**
 
-Note: 3 degree polynomial.ipynb, regularization.ipynb, and activity 1.ipynb generate their own synthetic data in-memory and can be run immediately without external files.
-
-
-Getting Started
-Clone or download this repository to your local machine.
-
-Install the required Python packages listed above.
-
-Add the datasets into the root folder alongside the notebooks.
-
-Launch Jupyter from the repository directory and open any notebook:
-
-Bash
+```bash
 jupyter notebook
-Each notebook is standalone and can be executed independently. (Note: Running activity 2.ipynb will generate and save diagnostic plot images to your working directory.)
+```
+
+## 📊 Dataset Requirements
+
+Some notebooks require external datasets.
+
+📥 **[Download the required CSV and dataset files here](https://tinyurl.com/4h5mahd5)**
+
+After downloading, place the files in the same directory as the notebooks.
+
+| Notebook | Required Dataset | Expected Columns |
+|---|---|---|
+| `2 degree polynomial.ipynb` | `Degree 2 Polynomial.csv` | `X`, `Y` |
+| `kfold.ipynb` | `k_fold_linear_regression (2).csv` | `Hours_Studied`, `Marks` |
+| `linear-regression.ipynb` | `linear_regression.csv` | `Hours_Studied`, `Marks` |
+| `activity 2.ipynb` | `data_banknote_authentication.txt` | Four features followed by the class label |
+
+**Note:** The Banknote Authentication dataset is loaded without a header. Column names are assigned within the notebook.
+
+The following notebooks generate their own sample datasets and do not require external files:
+
+- `activity 1.ipynb`
+- `regularization.ipynb`
+- `3 degree polynomial.ipynb`
+
+## 🚀 How to Run
+
+1. Open the repository in Jupyter Notebook or JupyterLab.
+2. Ensure all required datasets are available in the project directory.
+3. Open the notebook you want to execute.
+4. Run the cells sequentially to explore the implementation, predictions, evaluation metrics, and visualizations.
+
+## 📚 Concepts Covered
+
+- Linear Regression
+- Polynomial Regression (2nd and
