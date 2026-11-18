@@ -81,10 +81,11 @@ The following notebooks generate their own sample datasets and do not require ex
 3. Open the notebook you want to execute.
 4. Run the cells sequentially to explore the implementation, predictions, evaluation metrics, and visualizations.
 
-## 📚 Concepts Covered
+📚 Concepts Covered
 
-- Linear Regression
-- Polynomial Regression (2nd and 3rd Degree)
+Linear Regression
+
+Polynomial Regression (2nd and 3rd Degree)
 
 Ordinary Least Squares (OLS)
 
